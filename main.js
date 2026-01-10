@@ -71,7 +71,7 @@ document.getElementById('send-button').addEventListener('click', function(e) {
     // Check if the email and message are not empty
     if (userEmail && message) {
         // Send the email using EmailJS
-        emailjs.send("service_d6aif56", "template_4a19hb5", {
+        emailjs.send("service_6lm2fam", "template_4a19hb5", {
             email: userEmail, // Pass the captured email
             message: message  // Pass the captured message
         }).then(() => {
